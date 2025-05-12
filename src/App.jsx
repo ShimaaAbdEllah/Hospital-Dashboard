@@ -12,7 +12,7 @@ function App() {
 <div className="flex flex-wrap">
 
     {hospitals.map((hospital, index) => (
-      <div className="w-[80%] mx-auto 2xl:w-[50%]  2xl:flex ">
+      <div className="w-[80%] mx-auto xl:w-[50%] overflow-x-hidden  2xl:flex ">
 
       <Card key={index} hospital={hospital} />
     </div>
